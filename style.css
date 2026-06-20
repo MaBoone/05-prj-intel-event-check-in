@@ -348,6 +348,55 @@ select {
   color: #475569;
 }
 
+/* Attendee list styling */
+.attendee-list-section {
+  margin-top: 18px;
+  text-align: left;
+}
+
+.attendee-list {
+  list-style: none;
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+}
+
+.attendee-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: #ffffff;
+  border: 1px solid #eef2f7;
+  box-shadow: 0 2px 6px rgba(2,6,23,0.03);
+}
+
+.attendee-name {
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.attendee-team {
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.attendee-team.water { background: #e8f7fc; color: #035b82; }
+.attendee-team.zero { background: #ecfdf3; color: #0b6b3a; }
+.attendee-team.power { background: #fff7ed; color: #a75a00; }
+
+/* Celebration */
+.celebration {
+  background: linear-gradient(90deg, #fff4e6, #e8f9f9);
+  border: 1px solid rgba(0,0,0,0.04);
+  color: #06364a;
+}
+
 /* Mobile responsive */
 @media (max-width: 768px) {
   .hero {
